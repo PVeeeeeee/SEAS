@@ -32,5 +32,3 @@ document.addEventListener("keydown", function(event) {
     document.getElementById("meubotao").click();
   }
 });
-
-
