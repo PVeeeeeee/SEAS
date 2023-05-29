@@ -278,26 +278,35 @@ hr{
 }
 
 .teto{
-  margin-top: 20px;
+  margin-top: 30px;
   margin-bottom: 30px;
   display: grid;
   grid-template-columns: repeat(3, auto);
   align-items: center;
+  width: 90vw;
 }
 
 .logo2{
+  margin-left: 20px;
   font-family: 'Port Lligat Sans', sans-serif;
   font-size: 55px;
   text-align: center;
   color: #FFFFFF;
-  margin-left: -125px;
-  margin-top: 4px;
   cursor: pointer;
   text-decoration: none;
 }
 
+.usuario2{
+  margin-left: 20px;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
 .search-container2{
-  margin-left: -80px;
+  width: 55vw;
+  margin-left: 20px;
   display: flex;
   justify-content: center;
 }
@@ -337,15 +346,6 @@ hr{
   border: none;
   background-color: #ffffff;
   border-radius: 0 25px 25px 0;
-  cursor: pointer;
-}
-
-.usuario2{
-  border-radius: 100%;
-  width: 50px;
-  height: 50px;
-  margin-right: -150px;
-  margin-left: 90px;
   cursor: pointer;
 }
 
